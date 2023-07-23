@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>CV</title>
+      <meta charset="utf-8">
+	   <link rel="stylesheet" href="tp2.css">
+   </head> 
+   <body>
+     <br>
+	  <font size="16px"><center><b>Bienvenue dans le Generateur de CV</b></font><br>Veuillez remplir les informations suivantes </center><br> 
+	  <form action="tp2-2.html" method="get">
+	  <table height="250px" width="450px">
+	      <tr> 
+		    <td><b> Nom: </b> </td><td><input type="text" name="nom" id="nom"></td>
+		  </tr>
+          <tr>
+		    <td><b> Prenom:</b></td> <td><input type="text" name="prenom" ></td>
+		  </tr>
+		  <tr> 
+		    <td><b>Adress:</b></td><td><input type="text" name="ad"></td>
+		  </tr>
+		  <tr> 
+		    <td><b>Telephone:</b></td><td><input type="text" name="tele" id="tele"></td>
+		  </tr>
+		  <tr> 
+		    <td><b>E-mail :</b></td><td><input type="email" name="mail" id="mail"></td>
+		  </tr>
+		  <tr> 
+		    <td><b>Ville:</b></td><td><input type="text" name="vile" id="ville"></td>
+		  </tr>
+	 </table>
+	  <select name="pays" >
+        <option value="Maroc" name="pays"> Maroc</option>
+        <option value="Egypte" name="pays">Egypte</option>
+        <option value="France" selected="true" name="pays">France</option>
+        <option value="Iraq" name="pays">Iraq</option>
+      </select><br><br>
+	  <select name="sit" id="sit">
+        <option value="Celibataire"> Celibataire</option>
+        <option value="Mariee">Mariee</option>
+        <option value="Divorce">Divorce</option>
+      </select><br>
+	  <br><font color="blue" size="5px"> Etudes,Diplomes Universitaires et Formation:</font><hr height="30px" color="white"/>
+	  Annee: <input type="text" name="dip1" id="dip1" > Detail: <textarea rows="3" cols="30" name="dip1_2" id="dip1_2"></textarea><br><br>
+	  Annee: <input type="text" name="dip2" id="dip2"> Detail: <textarea rows="3" cols="30" name="dip2_2" id="dip2_2"></textarea><br><br>
+	  Annee: <input type="text" name="dip3" id="dip3"> Detail: <textarea rows="3" cols="30" name="dip3_2" id="dip3_2" ></textarea><br><br>
+	  Annee: <input type="text" name="dip4" id="dip4"> Detail: <textarea rows="3" cols="30" name="dip4_2" id="dip4_2"></textarea><br><br>
+	 <br><font color="blue" size="5px"> Experience Professionnelle :</font><hr height="30px" color="white"/>
+	  Annee: <input type="text" name="exp1" id="exp1"> Detail: <textarea rows="3" cols="30" name="exp1_2" id="exp1_2"></textarea><br><br>
+	  Annee: <input type="text" name="exp2" id="exp2"> Detail: <textarea rows="3" cols="30" name="exp2_2" id="exp2_2"></textarea><br><br>
+	 <br><font color="blue" size="5px"> Competences :</font><hr height="30px" color="white"/>
+	 competence 1: <textarea rows="3" cols="30" name="comp1" id="comp1"></textarea><br><br>
+	 competance 2: <textarea rows="3" cols="30" name="comp2" id="comp2"></textarea><br><br>
+	 competance 3: <textarea rows="3" cols="30" name="comp3" id="comp3"></textarea><br><br>
+	 <br><font color="blue" size="5px"> Loisirs :</font><hr height="30px" color="white"/>
+	 Loisirs 1: <textarea rows="3" cols="30" name="loisir1" id="l1"></textarea><br><br>
+	 Loisirs 2: <textarea rows="3" cols="30" name="loisir2" id="l2"></textarea><br><br>
+	 Loisirs 3: <textarea rows="3" cols="30" name="loisir3" id="l3"></textarea><br><br>
+	 Loisirs 4: <textarea rows="3" cols="30" name="loisir4" id="l4"></textarea><br><br>
+	 <br><font color="blue" size="5px"> Langues :</font><hr height="30px" color="white"/>
+	 Langue 1: <input type="text" name="lang1" id="lang1">    Niveau: <input type="text" name="niv1" id="lang1_2"> <br><br>
+	 Langue 2: <input type="text" name="lang2" id="lang2">    Niveau: <input type="text" name="niv2" id="lqng2_2"> <br><br>
+	 Langue 3: <input type="text" name="lang3" id="lang3">    Niveau: <input type="text" name="niv3" id="lang3_2"> <br><br>
+	 Langue 4: <input type="text" name="lang4" id="lang4">    Niveau: <input type="text" name="niv4" id="lang4_2"> <br><br>
+	<button type="submit">Generer</button>
+   </form>
+	<script src="tp2.js"></script>
+   </body>
+</html>

@@ -1,0 +1,17 @@
+body{
+	margin :30px;
+}
+hr{
+	height:6px;
+}
+u{
+	color : blue;
+}
+div{
+	background-color:#c0c0ff;
+	border-radius:10px;
+	padding:10px;
+}
+.info{
+	background-color:#9090ff;
+}
